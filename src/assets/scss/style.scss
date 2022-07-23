@@ -108,13 +108,13 @@ section {
 .card {
   height: 100%;
 
-  .tag{
+  .tag {
     z-index: 3;
     font-size: 0.875rem;
     background-color: $pink;
     padding: 0.25rem 1.25rem;
     position: absolute;
-    top: 0 ;
+    top: 0;
     right: 0;
     color: $white;
     min-height: 30px;
@@ -129,8 +129,8 @@ section {
     margin-bottom: 0;
     border-radius: 0.9375rem;
     overflow: hidden;
-  } 
-  
+  }
+
   .meta-wrapper {
     margin-top: 1rem;
     h5 {
@@ -156,7 +156,7 @@ section {
       transform: scale(1.1);
       transition: 0.5s ease-in-out;
       z-index: 2;
-      @include gradient-y(rgba($black, 0), rgba($black, .51), 0%, 100%)
+      @include gradient-y(rgba($black, 0), rgba($black, 0.51), 0%, 100%);
     }
 
     .img-wrapper {
@@ -197,5 +197,43 @@ section {
         transform: scale(1);
       }
     }
+  }
+}
+
+.testimonial-hero,
+.testimonial-hero img {
+  width: 365px;
+  height: 500px;
+}
+
+footer {
+  border-top: 1px solid $gray-200;
+  padding-top: 50px;
+
+  .brand-tagline{
+    margin-top: 8px;
+    color: $gray-500;
+    font-weight: 300;
+  }
+
+  .list-group-item {
+    padding: 0.3125rem 0;
+    border: 0;
+    a, span {
+      color: $gray-500;
+      font-weight: 300;
+    }
+    a {
+      @include hover-focus {
+        color: $gray-800;
+      }
+    }
+  }
+
+  .copyrights {
+    margin: 50px 0;
+    font-weight: 300;
+    font-size: 0.875rem;
+    color: $gray-500;
   }
 }
