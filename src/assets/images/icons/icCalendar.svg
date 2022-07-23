@@ -1,0 +1,30 @@
+<svg width="48" height="47" viewBox="0 0 48 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1.5" y="6.5" width="45" height="39" rx="1.5" stroke="white" stroke-width="3"/>
+<mask id="path-2-inside-1_15_786" fill="white">
+<rect x="6" y="19.5" width="9" height="9" rx="1"/>
+</mask>
+<rect x="6" y="19.5" width="9" height="9" rx="1" stroke="white" stroke-width="4" mask="url(#path-2-inside-1_15_786)"/>
+<mask id="path-3-inside-2_15_786" fill="white">
+<rect x="6" y="32" width="9" height="9" rx="1"/>
+</mask>
+<rect x="6" y="32" width="9" height="9" rx="1" stroke="white" stroke-width="4" mask="url(#path-3-inside-2_15_786)"/>
+<mask id="path-4-inside-3_15_786" fill="white">
+<rect x="19.5" y="19.5" width="9" height="9" rx="1"/>
+</mask>
+<rect x="19.5" y="19.5" width="9" height="9" rx="1" stroke="white" stroke-width="4" mask="url(#path-4-inside-3_15_786)"/>
+<mask id="path-5-inside-4_15_786" fill="white">
+<rect x="19.5" y="32" width="9" height="9" rx="1"/>
+</mask>
+<rect x="19.5" y="32" width="9" height="9" rx="1" stroke="white" stroke-width="4" mask="url(#path-5-inside-4_15_786)"/>
+<mask id="path-6-inside-5_15_786" fill="white">
+<rect x="33" y="19.5" width="9" height="9" rx="1"/>
+</mask>
+<rect x="33" y="19.5" width="9" height="9" rx="1" stroke="white" stroke-width="4" mask="url(#path-6-inside-5_15_786)"/>
+<mask id="path-7-inside-6_15_786" fill="white">
+<rect x="33" y="32" width="9" height="9" rx="1"/>
+</mask>
+<rect x="33" y="32" width="9" height="9" rx="1" stroke="white" stroke-width="4" mask="url(#path-7-inside-6_15_786)"/>
+<path d="M2 16L24 16L46 16" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<path d="M7.5 2L7.5 5.75L7.5 9.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<path d="M40.5 2L40.5 5.75L40.5 9.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+</svg>
