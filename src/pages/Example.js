@@ -1,15 +1,12 @@
 import React, { Component } from "react";
-import {InputNumber, InputDate} from "elements/Form";
+import Breadcrumb from "elements/Breadcrumb";
 export default class Example extends Component {
-  state = {
-    value: "1"
-  };
-
-  handleChange = (e) => {
-    this.setState({ value: e.target.value });
-  };
-
   render() {
+    const breadcrumb = [
+      { pageTitle: "Home", pageHref: "" },
+      { pageTitle: "Home Details", pageHref: "" },
+    ];
+
     return (
       <div className="container">
         <div
@@ -17,21 +14,7 @@ export default class Example extends Component {
           style={{ height: "100vh" }}
         >
           <div className="col-auto">
-            <InputNumber
-              max={30}
-              suffix=" night"
-              isSuffixPlural
-              onChange={this.handleChange}
-              name="value"
-              value={this.state.value}
-            />
-
-            <InputDate
-              max={30}
-              onChange={this.handleChange}
-              name="value"
-              value={this.state.value}
-            />
+            <Breadcrumb data={breadcrumb}/>
           </div>
         </div>
       </div>
